@@ -1,0 +1,7 @@
+{
+  "name": "cameranova",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

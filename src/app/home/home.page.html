@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Câmera
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div *ngIf="photo">
+    <img [src]="photo" alt="Foto capturada" />
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <ion-button (click)="takePicture()">Tirar Foto</ion-button>
+            </ion-col>
+          <ion-col size="4">
+            <ion-button (click)="uploadPhoto()" [disabled]="!photo">Fazer Upload</ion-button>
+          </ion-col>
+          <ion-col size="4">
+            <ion-button [disabled]="!photo">Limpar</ion-button>  
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
+
