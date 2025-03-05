@@ -23,4 +23,10 @@ Após a instalação é necessário configurar o arquivo **main.ts**
 
 Em meu exemplo eu configurei para registrar a foto, aparecer na tela do app, e realizar o upload usando PHP.
 
+
+## Uploado
+
+Você pode configurar como achar mais interessante, mas eu criei um arquivo e compartilhei aqui. 
+As primeiras linhas são para resolver os problemas chatos rss do CORS
+
 Espero ter colaborado.
